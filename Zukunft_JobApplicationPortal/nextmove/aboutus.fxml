@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="334.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="nextmove.AboutusController">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@icons/3-idiots-interview.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="264.0" fitWidth="504.0" layoutX="50.0" layoutY="31.0" pickOnBounds="true">
+         <image>
+            <Image url="@icons/aboutz.png" />
+         </image>
+      </ImageView>
+      <JFXButton fx:id="abt" layoutX="258.0" layoutY="302.0" onAction="#handleButtonAction1" style="-fx-background-color: #000000;" text="BACK" textFill="WHITE" />
+   </children>
+</AnchorPane>
